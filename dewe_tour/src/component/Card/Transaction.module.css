@@ -1,0 +1,32 @@
+.Danger {
+    color: #ec2525;
+    background-color: #ebcece;
+    border-radius: 5px;
+    padding: 0.3rem 0.5rem;
+    font-size: 12px;
+}
+
+
+.Success {
+    color: #407900;
+    background-color: #dce9db;
+    border-radius: 5px;
+    padding: 0.3rem 0.5rem;
+    font-size: 12px;
+}
+
+.Warning {
+    color: #eb910b;
+    background-color: #f8d9a9;
+    border-radius: 5px;
+    padding: 0.3rem 0.5rem;
+    font-size: 12px;
+}
+
+.ImageProof{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    height: 8.8rem;
+    width: 100%;
+}

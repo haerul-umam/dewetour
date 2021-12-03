@@ -1,0 +1,29 @@
+.Nation{
+    font-size: 1.5rem;
+    color: var(--grey);
+}
+
+.Title{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.ImageTop{
+    object-fit:cover;
+    width: 100%;
+    height: 23.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.ImageSmall{
+    width: 100%;
+    height: 10.5rem;
+}
+
+.Reservation {
+    width: 15%;
+    text-align: center;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}

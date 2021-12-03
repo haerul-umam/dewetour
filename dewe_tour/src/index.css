@@ -1,0 +1,67 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+:root{
+  --grey: #A8A8A8;
+  --yellow: #FFAF00;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body, html {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  background-color: #E5E5E5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* remove box-shadow from bs */
+.btn:focus{
+  box-shadow: none !important;
+}
+
+input:focus{
+  box-shadow: none !important;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.open-sans{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-grey {
+  color: var(--grey);
+}
+
+.font-yellow {
+  color: var(--yellow);
+}

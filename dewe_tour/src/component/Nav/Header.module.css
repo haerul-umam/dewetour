@@ -1,0 +1,11 @@
+.Link{
+    color: #ffff;
+    padding: 0 1.25rem;
+    border: 1px solid #ffff;
+    font-weight: bold;
+    width: 6.6rem;
+}
+
+.Link:hover{
+    color: grey
+}

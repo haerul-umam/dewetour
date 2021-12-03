@@ -1,0 +1,55 @@
+.Wrapper{
+    position: absolute;
+    background-color: #E5E5E5;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoadingSpinner {
+    width: 3rem;
+    height: 3rem;
+    display: inline-block;
+    border: 3px solid rgba(230, 175, 25, 0.911);
+    border-radius: 50%;
+    border-top-color: #fff;
+    margin-bottom: 10rem;
+    animation: 1s spin infinite ease-in-out;
+}
+
+@keyframes spin {
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+.LoadingDots > div{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: rgb(230, 175, 25);
+    border-radius: 50%;
+    display: inline-block;
+    animation: 1.5s bounce infinite ease-in-out both;
+}
+
+.LoadingDots .bounce{
+    animation-delay: -0.30s;
+}
+
+.LoadingDots .bounce2{
+    animation-delay: -0.15s;
+}
+
+@keyframes bounce{
+    0%,80%,100%{
+        transform: scale(0);
+    }
+    40%{
+        transform: scale(1);
+    }
+}

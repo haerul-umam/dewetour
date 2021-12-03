@@ -1,0 +1,28 @@
+{
+    "primeText" :[
+        {
+            "icon":"fas fa-hand-holding-usd fa-5x",
+            "title":"Best Price Guarantee",
+            "about":"This is dummy text for describing about this promotion",
+            "id":"prm1"
+        },
+        {
+            "icon":"fab fa-gratipay fa-5x",
+            "title":"Travellers Love Us",
+            "about":"This is dummy text for describing about this promotion",
+            "id":"prm2"
+        },
+        {
+            "icon":"fas fa-user-secret fa-5x",
+            "title":"Best Travel Agent",
+            "about":"This is dummy text for describing about this promotion",
+            "id":"prm3"
+        },
+        {
+            "icon":"fas fa-headset fa-5x",
+            "title":"Our Dedicated Support",
+            "about":"This is dummy text for describing about this promotion",
+            "id":"prm4"
+        }
+    ]
+}

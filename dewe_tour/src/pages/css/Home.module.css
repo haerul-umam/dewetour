@@ -1,0 +1,29 @@
+.HeaderImage{
+    color: #ffff;
+    background-image: url("http://localhost:3000/assets/images/nature.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+}
+
+.SearchBarButton {
+    border-radius: 0 5px 5px 0;
+    padding: 5px 15px;
+    color: #ffff;
+    font-weight: 600;
+}
+
+.SearchBarButton:hover{
+    color: #ffff;
+}
+
+.SearchBarInput {
+    border: none;
+    border-radius: 5px 0 0 5px;
+    padding-left: 10px;
+}
+
+.SearchBarInput:focus{
+    outline: none;
+}

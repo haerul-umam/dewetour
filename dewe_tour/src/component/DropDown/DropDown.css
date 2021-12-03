@@ -1,0 +1,65 @@
+#dropdown-basic::after {
+    display: none;
+}
+
+#dropdown-basic{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0;
+}
+
+.notif-wrapper{
+    max-height: 252px;
+    overflow-x: auto;
+}
+
+#ava {
+    width: 50px;
+    height: 50px;
+}
+
+.fa-comment-dollar {
+    position: relative;
+    cursor: pointer;
+    color: var(--yellow);
+}
+
+.test::before{
+    content: "Hallo";
+    margin-top: 100px;
+}
+
+.fs-10 {
+    font-size: 10px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.notif-card{
+    background-color: var(--yellow);
+    padding: 5px 10px;
+}
+
+.mark-text{
+    cursor: pointer;
+}
+
+.dot {
+    position: absolute;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    height: 7px;
+    width: 7px;
+    top: -5px;
+    right: -4px;
+}
+
+.title-trip{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+

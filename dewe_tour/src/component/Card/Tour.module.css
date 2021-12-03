@@ -1,0 +1,30 @@
+.Quota {
+    background-color: #fff;
+    border-radius: 5px 0 0 5px;
+    position: absolute;
+    padding: 0.5rem 0.8rem;
+    top: 1.5rem;
+    right: 0.6rem;
+    font-size: 14px;
+}
+
+.Card {
+    border: none;
+    width: 21.875rem;
+    height: 21.875rem;
+    padding: 0.6rem;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.Img {
+    height: 15.191rem;
+    border-radius: 5px;
+}
+
+.Title {
+    text-overflow: ellipsis;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+}

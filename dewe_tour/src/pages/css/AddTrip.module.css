@@ -1,0 +1,70 @@
+.Label {
+  font-weight: bold;
+  margin-left: 0.7rem;
+}
+
+.ButtonFile,
+.FormControl {
+  background-color: rgba(196, 196, 196, 0.5);
+  border: 2px solid #b1b1b1;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.ButtonFile {
+  text-align: start;
+  width: 12rem;
+  position: relative;
+  height: 2.5rem;
+}
+
+.ImageButton {
+  position: absolute;
+  top: auto;
+  width: 25px;
+  height: 25px;
+  right: 0;
+}
+
+.FormControl:focus {
+  background-color: rgba(210, 210, 210, 0.25);
+  box-shadow: none;
+  outline: none;
+}
+
+.Option {
+  background-color: rgba(196, 196, 196, 0.5);
+}
+
+.Theme {
+  --radius: 5px;
+  --baseFg: black;
+  --baseBg: rgba(196, 196, 196, 0.5);
+  --accentBg: black;
+}
+
+.Select {
+  color: var(--baseFg);
+  line-height: 1.4;
+  outline: 0;
+  padding: 0.5em 0 0.5em 0.5em;
+  border-radius: var(--radius);
+  background-color: var(--baseBg);
+  width: 100%;
+}
+
+.Select:hover {
+  cursor: pointer;
+}
+
+.Select:active {
+  color: var(--accentBg);
+}
+
+
+.ImagePreview{
+  width: 10rem;
+  height: 7rem;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}

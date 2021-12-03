@@ -1,0 +1,30 @@
+.ModelBody { 
+    position: relative;
+}
+
+.ModelBody img{ 
+    position: absolute;
+    top: 0
+}
+
+.ModelBody img:nth-child(1){ left: 0;}
+
+.ModelBody img:nth-child(2){ 
+    right: 0;
+    border-radius: 5px;
+}
+
+.Input{
+    background-color: rgba(210, 210, 210, 0.25);
+    border-radius: 5px;
+}
+
+.Input:focus{
+    background-color: rgba(210, 210, 210, 0.25);
+    outline: none;
+    box-shadow: none;
+}
+
+.ModalAuth{
+    width: 25rem;
+}
